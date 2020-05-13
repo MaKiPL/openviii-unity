@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{35508200-8E2B-8DC4-EA50-E0FCEADD27DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,7 +55,6 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Drawing" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -65,100 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\DictionaryEx.cs" />
-    <Compile Include="Assets\Scripts\Image\Bppflag.cs" />
-    <Compile Include="Assets\Scripts\Image\Cluts.cs" />
-    <Compile Include="Assets\Scripts\Image\ColorABGR1555.cs" />
-    <Compile Include="Assets\Scripts\Image\TDW.cs" />
-    <Compile Include="Assets\Scripts\Image\TEX.cs" />
-    <Compile Include="Assets\Scripts\Image\Texture2DWrapper.cs" />
-    <Compile Include="Assets\Scripts\Image\TextureBuffer.cs" />
-    <Compile Include="Assets\Scripts\Image\TextureHandler.cs" />
-    <Compile Include="Assets\Scripts\Image\Texture_Base.cs" />
-    <Compile Include="Assets\Scripts\Image\TIM2.cs" />
-    <Compile Include="Assets\Scripts\Image\TIMOverture.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\Abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\Ability.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\AbilityFlags2.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\AbilityFlags4.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\CharacterAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\CharacterAbilityFlags.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\CommandAbility.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\CommandAbilityData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\GFAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\IAbility.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\IEquippableAbility.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\JunctionAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\JunctionAbilityFlags.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\MenuAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\PartyAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Abilities\StatPercentageAbilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\AttackFlags.cs" />
-    <Compile Include="Assets\Scripts\Kernel\AttackType.cs" />
-    <Compile Include="Assets\Scripts\Kernel\BattleOnlyStatuses.cs" />
-    <Compile Include="Assets\Scripts\Kernel\CharacterStats.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Commands\BattleCommand.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Commands\ICommand.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Devour.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Element.cs" />
-    <Compile Include="Assets\Scripts\Kernel\EnemyAttacksData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Gender.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Items\BattleItemsData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Items\Kernel_bin.Battle_Items.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Items\NonBattleItemsData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\JunctionableGFsData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\JunctionStatuses.cs" />
-    <Compile Include="Assets\Scripts\Kernel\KernelBin.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Blue_magic_Quistis_limit_break.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Character_abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Character_Stats.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Command_abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Command_ability_data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Devour.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Duel_Zell_limit_break.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Enemy_Attacks_Data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.GF_abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.JunctionAbilityFlags.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Junctionable_GFs_Data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Junction_abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.J_Statuses.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Magic_Data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Menu_abilities.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Misc_section.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Misc_text_pointers.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Quistis_limit_break_parameters.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Renzokuken_Finishers_Data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Renzokuken_Level.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Kernel_bin.Weapons_Data.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\BlueMagic.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\BlueMagicQuistisLimitBreak.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\BlueMagicQuistisLimitBreakParameters.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\DuelZellLimitBreak.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\RenzokukenFinisher.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\RenzokukenFinisherData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\RinoaLimitBreaksPart1.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\RinoaLimitBreaksPart2.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\SelphieLimitBreakSets.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\ShotIrvineLimitBreak.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\Slot.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\SlotArray.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\TemporaryCharacterLimitBreaks.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Limit\ZellLimitBreakParameters.cs" />
-    <Compile Include="Assets\Scripts\Kernel\MagicData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\MagicID.cs" />
-    <Compile Include="Assets\Scripts\Kernel\MiscSection.cs" />
-    <Compile Include="Assets\Scripts\Kernel\MiscTextPointers.cs" />
-    <Compile Include="Assets\Scripts\Kernel\NonJunctionableGFsAttacksData.cs" />
-    <Compile Include="Assets\Scripts\Kernel\PersistentStatuses.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Quantity.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Stat.cs" />
-    <Compile Include="Assets\Scripts\Kernel\StatFlags.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Target.cs" />
-    <Compile Include="Assets\Scripts\Kernel\Unlocker.cs" />
-    <Compile Include="Assets\Scripts\Kernel\WeaponsData.cs" />
-    <Compile Include="Assets\Scripts\Loc.cs" />
-    <Compile Include="Assets\Scripts\Memory.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="Unity.Timeline.Editor">
@@ -765,7 +669,6 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
